@@ -1,0 +1,15 @@
+/* Import Font Family From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Custom Website Style */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-heading {
+  font-size: 50px;
+}
+
+.main-heading > #name-highlight {
+  color: orange;
+}
