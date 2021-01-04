@@ -4,6 +4,8 @@
 /* Custom Website Style */
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .main-heading {
@@ -12,4 +14,14 @@ body {
 
 .main-heading > #name-highlight {
   color: orange;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  padding: 5%;
+}
+
+.half-width > img {
+  width: 100%;
 }
