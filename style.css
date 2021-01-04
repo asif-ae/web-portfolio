@@ -14,9 +14,22 @@ p {
   line-height: 200%;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 section {
   height: 500px;
   padding-bottom: 150px;
+}
+
+section:last-of-type {
+  height: 500px;
+  padding: 0;
 }
 
 .first-section {
@@ -28,6 +41,12 @@ section {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.third-section {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
 }
 
 .half-width {
@@ -44,7 +63,7 @@ section {
   font-size: 50px;
 }
 
-.main-heading > #name-highlight {
+.highlighter {
   color: orange;
 }
 
@@ -59,4 +78,35 @@ section {
 
 .secound-heading {
   font-size: 40px;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 40px gray;
+}
+
+.half-width-special {
+  width: 37%;
+  height: 350px;
+  margin-left: 5%;
+  padding: 30px;
+  float: left;
+  background: rgba(0, 0, 0, 0);
+}
+
+.tomato-border {
+  border-left: 7px solid tomato;
+}
+
+.gradient-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer > p {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  height: 0;
+  padding-bottom: 20px;
 }
