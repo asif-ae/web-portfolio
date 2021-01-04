@@ -8,12 +8,13 @@ body {
   padding: 0;
 }
 
-.main-heading {
-  font-size: 50px;
+section {
+  height: 500px;
 }
 
-.main-heading > #name-highlight {
-  color: orange;
+.first-section {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
 }
 
 .half-width {
@@ -24,4 +25,12 @@ body {
 
 .half-width > img {
   width: 100%;
+}
+
+.main-heading {
+  font-size: 50px;
+}
+
+.main-heading > #name-highlight {
+  color: orange;
 }
